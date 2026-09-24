@@ -1,0 +1,23 @@
+# Proprietary/customer project data - never commit real pdata.fwc files or
+# anything extracted from one (tag names, screens, IPs may be customer-
+# confidential). Keep this repo to code only.
+*.fwc
+*.tfz
+*.rdf
+*.hsf
+*.pwl1
+*.pwl2
+pdata.*
+
+# extractor output
+recon_*/
+*.csv
+*.json
+!package.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
